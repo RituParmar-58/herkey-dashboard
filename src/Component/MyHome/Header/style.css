@@ -1,0 +1,67 @@
+
+.header-container {
+  background-color: #fff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1000;
+    border: 0px solid grey;
+    box-shadow: 5px 5px 10px rgba(134, 134, 134, 0.3);
+  }
+
+  .logo {
+    width : 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4px;;
+  }
+  @media (max-width: 769px) {
+    .logo{
+      flex-direction: row-reverse;
+      
+      gap:8px;
+    }
+  }
+  
+  .herkey-logo{
+    width: 100px;
+  }
+
+    .forever21-logo{
+      width:50px;
+      border-radius: 50%;
+      margin-right: 40px;
+      margin-left:70px;
+
+    }
+
+    @media (max-width: 768px) {
+      .buttons{
+        display: none;;
+      }
+
+    }
+    @media (min-width: 769px) {
+  
+  
+  .buttons {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    gap: 32px;
+    margin-left: 60px;
+  }
+}
+  
+ 
+  
+  .button:hover {
+    background-color: "none";
+  } 

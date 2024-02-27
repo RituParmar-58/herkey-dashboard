@@ -1,0 +1,27 @@
+  .footer-sec{
+    background-color: #eceaea;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 8px;
+  }
+  .footer-sec1{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      color:rgb(178,178,178);
+      font-size:12px;
+  }
+  .footer-sec2{
+      display:flex;
+      margin-right :20px;
+      justify-content: space-between;
+      gap: 8px;
+  }
+  
+  
+  
+ 
+  
